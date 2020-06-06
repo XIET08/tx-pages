@@ -1,0 +1,39 @@
+{
+  "name": "tx-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "tx-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/XIET08/tx-pages#readme",
+  "bugs": {
+    "url": "https://github.com/XIET08/tx-pages/issues"
+  },
+  "license": "MIT",
+  "author": "XIET08 <xietingmch@foxmail.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XIET08/tx-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^2.2.0",
+    "standard": "^13.1.0"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
